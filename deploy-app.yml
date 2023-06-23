@@ -24,4 +24,4 @@ spec:
         - containerPort: 5000
           name: hello
       imagePullSecrets:
-        - name: regcred
+        - name: my-reg-cred
